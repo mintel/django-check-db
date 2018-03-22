@@ -9,7 +9,7 @@ A Django management command to check that connections can be established to all 
 
 .. code-block:: bash
 
-    $ ./manage.py check_db_connections --timeout=1
+    $ ./manage.py check_db_connections
     default OK
 
 Install
@@ -20,7 +20,7 @@ Install
     $ pipenv install django-check-db
 
 
-Add `django_check_db` to your Django `INSTALLED_APPS`.
+Add :code:`"django_check_db"` to your Django :code:`INSTALLED_APPS`.
 
 
 Changes
